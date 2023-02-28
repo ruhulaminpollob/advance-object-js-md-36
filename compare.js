@@ -41,3 +41,13 @@ const isEqual=(num1,num2)=>{
 
 const compare=isEqual(num1,num2)
 console.log(compare);
+
+
+
+
+
+const obj1= {module: 35, video:2}; 
+const obj2= {module: 35, video:2};
+console.log(obj1 === obj2);
+
+const getGirlFriend= (name = "chokina")=>"name"; console.log(getGirlFriend()); 
