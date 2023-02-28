@@ -30,3 +30,10 @@ const costs =kodomAli.treetDay.call(badamAli,200);
 console.log(costs);
 const cost2 =kodomAli.treetDay.call(badamAli,[200]);
 console.log(costs);
+
+
+// that function redeclare with bind
+
+const badamAliTreat=kodomAli.treetDay.bind(badamAli);
+const remaining=badamAliTreat(1500);
+console.log(remaining);
