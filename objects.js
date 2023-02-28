@@ -43,4 +43,12 @@ class Person{
 const person1 = new Person(23);
 console.log(person1);
 
-// create object by using function
+//5 create object by using function
+
+
+function Car(model, price) {
+    this.model=model;
+    this.price=price;
+}
+const tesla=new Car('elon',price)
+console.log(tesla);
