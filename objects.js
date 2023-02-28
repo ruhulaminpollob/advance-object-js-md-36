@@ -10,3 +10,16 @@ player.bat=function(){
 
 console.log(player);
 player.bat()
+
+//
+
+const student={
+    name:'panday',
+    work:'dev',
+    ball:function () {
+        console.log('throw the ball');
+    }
+}
+// object constructor
+const person=new Object();
+console.log(person);
