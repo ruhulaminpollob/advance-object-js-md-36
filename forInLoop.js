@@ -15,3 +15,16 @@ for (const key in bottle) {
 }
 
 // console.log(bottle['color']);
+
+// advanced 
+
+
+for (const [kye, value] of Object.entries(bottle)) {
+    console.log(kye,value);
+}
+
+/*
+here object.entries(bottle) means a array [.....]
+and kye and value  destructure this array value
+
+*/
