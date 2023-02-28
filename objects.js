@@ -31,3 +31,16 @@ console.log(person);
 
 const atel=Object.create(student);
 console.log(atel.name);
+
+// 4. make object by class
+class Person{
+    name='abul';
+    address='sodor ghat';
+    constructor(age){
+        this.age=age;
+    }
+}
+const person1 = new Person(23);
+console.log(person1);
+
+// create object by using function
