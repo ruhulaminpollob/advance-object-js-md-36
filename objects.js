@@ -23,3 +23,11 @@ const student={
 // object constructor
 const person=new Object();
 console.log(person);
+
+// Object create method
+
+// const item=Object.create(null)
+// console.log(item);
+
+const atel=Object.create(student);
+console.log(atel.name);
